@@ -1,6 +1,6 @@
 @extends('app')
 
-@section('title','Comics')
+@section('title','Comics | DC')
 
 @section('content')
 

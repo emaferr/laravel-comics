@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url(https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap);
 @charset "UTF-8";
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
@@ -10002,6 +10002,10 @@ h3 {
     border-color: #dee2e6;
   }
 }
+* {
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
 .header_container {
   background-color: #0282F9;
 }
@@ -10009,4 +10013,49 @@ h3 {
   list-style: none;
   display: flex;
   justify-content: flex-end;
+}
+.header_container .first_menu li {
+  color: white;
+  font-size: 0.7rem;
+  font-weight: bolder;
+}
+
+.header_nav {
+  display: flex;
+  align-items: center;
+}
+.header_nav img {
+  width: 65px;
+}
+.header_nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.header_nav ul li a {
+  padding-bottom: 2rem;
+  color: #464646;
+  text-decoration: none;
+}
+.header_nav ul li a:hover {
+  color: #0282F9;
+}
+.header_nav .search_bar {
+  text-align: end;
+  position: relative;
+  text-decoration: none;
+}
+.header_nav .search_bar .search_input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #0282F9;
+}
+.header_nav .search_bar .search_icons {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.active {
+  border-bottom: 4px solid #0282F9;
 }

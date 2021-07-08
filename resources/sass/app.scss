@@ -1,5 +1,5 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
 
 // Variables
 @import 'variables';
@@ -8,4 +8,5 @@
 @import '~bootstrap/scss/bootstrap';
 
 // Site
+@import 'commons';
 @import 'header';
