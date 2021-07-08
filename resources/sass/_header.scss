@@ -1,0 +1,8 @@
+.header_container{
+    background-color: $firstBlueColor;
+    .first_menu{
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
