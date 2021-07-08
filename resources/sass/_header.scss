@@ -13,13 +13,12 @@
 }
 
 .header_nav{
-    // padding-bottom: .8rem;
+    padding-bottom: .8rem;
     display: flex;
     align-items: center;
     img{
         width: 65px;
     }
-
     ul{
         list-style: none;
         display: flex;
@@ -53,7 +52,12 @@
         
     }
 }
-
+.jumbo{
+    background-image: url('../img/jumbotron.jpg');
+    background-size: cover;
+    height: 400px;
+ }
+ 
 .active{
     border-bottom: 4px solid $firstBlueColor;
 }

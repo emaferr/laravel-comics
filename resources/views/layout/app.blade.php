@@ -8,8 +8,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>@yield('title','DC Comics')</title>
-
-        <!-- Fonts -->
         
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
@@ -54,8 +52,10 @@
                     </div>
                 </nav>
             </div>
+            <div class="jumbo"></div>
         </header>
-        <main>
+
+        <main id="main_content">
             @yield('content')
         </main>
         
