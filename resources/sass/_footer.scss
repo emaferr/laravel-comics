@@ -1,0 +1,85 @@
+.topfooter_container{
+    background-image: url('../img/footer-bg.jpg');
+    background-size: cover;
+}
+
+.half_conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    h5{
+        color: white;
+        font-weight: bold;
+    }
+    ul{
+        list-style: none;
+        a{
+            color: $text_grey;
+            font-size: .8rem;
+            &:hover{
+                color: $firstBlueColor;
+                text-decoration: none;
+            }
+        }
+        
+    }
+    p{
+        color: $text_grey;
+        font-size: .8rem;
+        a{
+            color: $firstBlueColor;
+            font-size: .8rem;
+        }
+    }
+}
+.margin_negative{
+    margin-top: -6rem;
+}
+
+.dx_top{
+    height: 385.8px;    
+    overflow: hidden;
+    img{
+        margin-top: -79px;
+        width: 529px;
+    }
+}
+
+.bottomfooter_container{
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .footer_icons{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            a{
+                text-decoration: none;
+                &:hover{
+                    opacity: 0.5;
+                }
+            }
+        }
+        span{
+            color: $firstBlueColor;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+    }
+    padding: 1.5rem 0;
+    background-color: #303030;
+    .sign_up{
+        color: white;
+        font-weight: bold;
+        background-color: transparent;
+        border: 2px solid $firstBlueColor;
+        padding: .2rem .7rem;
+        transition-duration: .5s;
+        transition-property: background-color;
+        transition-timing-function: ease;
+        &:hover{
+            background-color: $firstBlueColor;
+        }
+    }
+}

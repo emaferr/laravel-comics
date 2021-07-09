@@ -4,6 +4,14 @@
 
 @section('content')
 
-<h1>Home</h1>
+
+<main>
+    <div class="work">
+        <div class="container">
+            <h1 class="text-white pt-3 font-weight-bold">Home</h1>
+        </div>
+    </div>
+</main>
+
 
 @endsection
