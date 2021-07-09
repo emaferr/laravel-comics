@@ -7,16 +7,11 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+// FontAwesome
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+
 // Site
 @import 'commons';
 @import 'header';
-
-#card_body{
-    text-transform: uppercase;
-    background-color: #1C1C1C;
-    padding: 1rem 0;
-}
-
-.comics_container{
-    background-color: #1C1C1C;
-}
+@import 'main';

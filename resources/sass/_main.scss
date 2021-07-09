@@ -1,0 +1,22 @@
+#card_body{
+    text-transform: uppercase;
+    background-color: #1C1C1C;
+    padding: 1rem 0;
+}
+
+.comics_container{
+    background-color: #1C1C1C;
+}
+
+.crop{
+    height: 160px;
+    overflow: hidden;
+}
+
+.int{
+    width: fit-content;
+    background-color: $firstBlueColor;
+    margin-top: -70px;
+    padding: .3rem 1.5rem;
+    font-weight: bold;
+}
