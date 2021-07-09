@@ -19,7 +19,7 @@
             <div class="header_container">
                 <div class="header_first container">
                     <ul class="first_menu py-2">
-                        <li class="px-5">DC POWER VISA</li>
+                        <li class="px-5">DC POWER&trade; VISA&reg;</li>
                         <li>ADDICTIONAL DC SITES</li>
                     </ul>
                 </div>
@@ -31,9 +31,9 @@
                     </a>
                     <div class="nav_link col-8">
                         <ul class="p-0 mb-0">
-                            <li class="text-uppercase font-weight-bold"><a href="">characters</a></li>
-                            <li class="text-uppercase font-weight-bold"><a href="" class="{{Route::currentRouteName() === 'home' ? 'active' : ''}}">comics</a></li>
-                            <li class="text-uppercase font-weight-bold"><a href="">movies</a></li>
+                            <li class="text-uppercase font-weight-bold"><a href="{{route ('characters')}}" class="{{Route::currentRouteName() === 'characters' ? 'active' : ''}}">characters</a></li>
+                            <li class="text-uppercase font-weight-bold"><a href="{{route ('comics')}}" class="{{Route::currentRouteName() === 'comics' ? 'active' : ''}}">comics</a></li>
+                            <li class="text-uppercase font-weight-bold"><a href="" >movies</a></li>
                             <li class="text-uppercase font-weight-bold"><a href="">tv</a></li>
                             <li class="text-uppercase font-weight-bold"><a href="">games</a></li>
                             <li class="text-uppercase font-weight-bold"><a href="">collectibles</a></li>
@@ -46,8 +46,8 @@
                     <div class="search_bar col pr-0">
                         <input class="search_input" type="search" name="" id="">
                         <div class="search_icons">
-                            <span>Search</span>
-                            <i>O</i>
+                            <span class="font-weight-bold">Search</span>
+                            <i class="fas fa-search"></i>
                         </div>
                     </div>
                 </nav>

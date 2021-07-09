@@ -14,7 +14,26 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    
-    $comics = config('comics.data');
-    return view('home',compact('comics'));
+    return view('home');
 })->name('home');
+
+Route::get('/characters', function () {
+    return view('characters');
+})->name('characters');
+
+// Comics
+Route::get('/comics', function () {
+    $comics = config('comics.data');
+    return view('comics.index',compact('comics'));
+})->name('comics');
+
+Route::get('comics/{id}', function ($id) {
+    $comics = config('comics.data');
+    if(is_numeric($id) && $id < count($comics) && $id >= 0){
+        $comic = $comics[$id];
+        return view('comics.show', compact('comic'));
+    }else{
+        abort(404);
+    }
+})->name('comic');
+// END Comics
