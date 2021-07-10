@@ -33,11 +33,11 @@
                     <div class="nav_link col-8">
                         <ul class="p-0 mb-0">
                             {{-- @foreach (config('comics.navLink') as $link)
-                            <li class="text-uppercase font-weight-bold"><a href="{{$link['href']}}" class="{{Route::currentRouteName() === $link['title'] ? 'active' : ''}}">{{$link['title']}}</a></li>
+                            <li class="text-uppercase font-weight-bold"><a href="{{$link}}" class="{{Route::currentRouteName() === $link ? 'active' : ''}}">{{$link}}</a></li>
                             @endforeach --}}
                             <li class="text-uppercase font-weight-bold"><a href="{{route ('characters')}}" class="{{Route::currentRouteName() === 'characters' ? 'active' : ''}}">characters</a></li>
                             <li class="text-uppercase font-weight-bold"><a href="{{route ('comics')}}" class="{{Route::currentRouteName() === 'comics' ? 'active' : ''}}">comics</a></li>
-                            <li class="text-uppercase font-weight-bold"><a href="" >movies</a></li>
+                            <li class="text-uppercase font-weight-bold"><a href="">movies</a></li>
                             <li class="text-uppercase font-weight-bold"><a href="">tv</a></li>
                             <li class="text-uppercase font-weight-bold"><a href="">games</a></li>
                             <li class="text-uppercase font-weight-bold"><a href="">collectibles</a></li>
@@ -96,11 +96,6 @@
                         @foreach (config('comics.footerIcons') as $icon)
                         <a href=""><img src="{{$icon}}" alt=""></a>
                         @endforeach
-                        
-                        {{-- <a href=""><img src="{{asset('img/footer-twitter.png')}}" alt=""></a>
-                        <a href=""><img src="{{asset('img/footer-youtube.png')}}" alt=""></a>
-                        <a href=""><img src="{{asset('img/footer-pinterest.png')}}" alt=""></a>
-                        <a href=""><img src="{{asset('img/footer-periscope.png')}}" alt=""></a> --}}
                     </div>
                 </div>
             </div>

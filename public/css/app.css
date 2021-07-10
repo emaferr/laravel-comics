@@ -14719,6 +14719,28 @@ h3 {
   font-weight: bold;
 }
 
+.load_more {
+  padding: 0.2rem 3rem;
+  background-color: #0282F9;
+  border: none;
+}
+
+.main_list {
+  background-color: #0282F9;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_list span {
+  color: white;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+.main_list img {
+  width: 33px;
+}
+
 .topfooter_container {
   background-image: url("../img/footer-bg.jpg");
   background-size: cover;
@@ -14762,7 +14784,7 @@ h3 {
   overflow: hidden;
 }
 .dx_top img {
-  margin-top: -79px;
+  margin-top: -70px;
   width: 529px;
 }
 

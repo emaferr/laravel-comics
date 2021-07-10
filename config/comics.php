@@ -236,49 +236,30 @@ return [
         ],
     ],
 
-    'navLink' => [
+    'mainList' => [
         [
-            'title' => 'characters',
-            'href' => 'characters'
+            'img' => '../img/buy-comics-digital-comics.png',
+            'name' => 'DIGITAL COMICS'
         ],
         [
-            'title' => 'comics',
-            'href' => 'comics'
+            'img' => '../img/buy-comics-merchandise.png',
+            'name' => 'DC MERCHANDISE'
         ],
         [
-            'title' => 'movies',
-            'href' => 'movies'
+            'img' => '../img/buy-comics-subscriptions.png',
+            'name' => 'SUBSCRIPTION'
         ],
         [
-            'title' => 'tv',
-            'href' => 'tv'
+            'img' => '../img/buy-comics-shop-locator.png',
+            'name' => 'COMIC SHOP LOCATION'
         ],
         [
-            'title' => 'games',
-            'href' => 'games'
+            'img' => '../img/buy-dc-power-visa.svg',
+            'name' => 'DC POWER VISA'
         ],
-        [
-            'title' => 'collectibles',
-            'href' => 'collectibles'
-        ],
-        [
-            'title' => 'videos',
-            'href' => 'videos'
-        ],
-        [
-            'title' => 'fans',
-            'href' => 'fans'
-        ],
-        [
-            'title' => 'news',
-            'href' => 'news'
-        ],
-        [
-            'title' => 'shop',
-            'href' => 'shop'
-        ],
-        
     ],
+
+    'navLink' => ['characters','comics', 'movies', 'tv', 'games', 'collectibles', 'videos', 'fans', 'news', 'shop'],
 
     'footerIcons' => ['../img/footer-facebook.png','../img/footer-twitter.png','../img/footer-youtube.png','../img/footer-pinterest.png','../img/footer-periscope.png']
      

@@ -20,3 +20,25 @@
     padding: .3rem 1.5rem;
     font-weight: bold;
 }
+
+.load_more{
+    padding: .2rem 3rem;
+    background-color: $firstBlueColor;
+    border: none;
+}
+
+.main_list{
+    background-color: $firstBlueColor;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span{
+        color: white;
+        font-size: .7rem;
+        font-weight: bold;
+    }
+    img{
+        width: 33px;
+    }
+}

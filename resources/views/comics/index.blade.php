@@ -5,7 +5,7 @@
 @section('content')
 
 <main>
-    <div class="comics_container py-5">
+    <div class="comics_container pt-5">
         <div class="container">
             <h2 class="int text-white">CURRENT SERIES</h2>
             <div class="comics row">
@@ -23,6 +23,15 @@
             @endforeach
             </div>                
         </div>
+        <div class="text-center pb-3">
+            <button class="load_more text-white font-weight-bold">LOAD MORE</button>
+        </div>
+    </div>
+    <div class="main_list">
+        @foreach ($mainList as $item)
+        <img src="{{$item['img']}}" alt="">
+        <span class="pr-5 mr-4 pl-2">{{$item['name']}}</span>    
+        @endforeach
     </div>
 </main>
 @endsection

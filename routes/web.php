@@ -24,7 +24,8 @@ Route::get('/characters', function () {
 // Comics
 Route::get('/comics', function () {
     $comics = config('comics.data');
-    return view('comics.index',compact('comics'));
+    $mainList = config('comics.mainList');
+    return view('comics.index',compact('comics'),compact('mainList'));
 })->name('comics');
 
 Route::get('comics/{id}', function ($id) {
