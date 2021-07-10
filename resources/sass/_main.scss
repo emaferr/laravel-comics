@@ -42,3 +42,15 @@
         width: 33px;
     }
 }
+
+.blue_line{
+    height: 100px;
+    width: 100%;
+    background-color: $firstBlueColor;
+    img{
+        width: 220px;
+        margin-top: -255px;
+        border: 2px solid white;
+    }
+    
+}
