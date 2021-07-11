@@ -14753,7 +14753,7 @@ h3 {
 }
 
 .comic_main .md_cnt {
-  width: 70%;
+  width: 65%;
   margin: auto;
 }
 .comic_main .md_cnt .comic h3 {
@@ -14763,6 +14763,9 @@ h3 {
   text-align: end;
   font-weight: bolder;
   color: #555555;
+}
+.comic_main .adv img {
+  height: 200px;
 }
 .comic_main .green_bar {
   background-color: #55BA59;

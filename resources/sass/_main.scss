@@ -58,7 +58,7 @@
 .comic_main{
    
     .md_cnt{
-        width: 70%;
+        width: 65%;
         margin: auto;
         .comic{
             h3{
@@ -70,6 +70,9 @@
         text-align: end;
         font-weight: bolder;
         color: #555555;
+        img{
+            height: 200px;
+        }
     }
 
     .green_bar{

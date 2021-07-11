@@ -8,6 +8,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>@yield('title','DC Comics')</title>
+
+        <link rel="icon" type="image/png" sizes="32x32" href="{{asset('img/dc-logo.png')}}">
         
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">

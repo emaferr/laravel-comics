@@ -14,7 +14,7 @@
     </div>
     <div class="comic py-5">
         <div class="container md_cnt row">
-            <div class="details col-7 px-0">
+            <div class="details col-8 px-0">
                 <h3 class="text-uppercase font-weight-bold">{{$comic['title']}}</h3>
                 <div class="green_bar d-flex row my-3">
                     <div class="col-8 d-flex justify-content-between py-2">
@@ -28,7 +28,7 @@
                 <p>{{$comic['description']}}</p>
             </div>
             <div class="col adv">
-                <span>ADVERTISEMENT</span>
+                <span class="d-block">ADVERTISEMENT</span>
                 <img src="{{asset('img/adv.jpg')}}" alt="">
             </div>
         </div>
