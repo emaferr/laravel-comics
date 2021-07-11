@@ -14752,6 +14752,27 @@ h3 {
   border: 2px solid white;
 }
 
+.comic_main .md_cnt {
+  width: 70%;
+  margin: auto;
+}
+.comic_main .md_cnt .comic h3 {
+  color: #003F5E;
+}
+.comic_main .adv {
+  text-align: end;
+  font-weight: bolder;
+  color: #555555;
+}
+.comic_main .green_bar {
+  background-color: #55BA59;
+  margin: 0;
+  border-bottom: 2px solid #357739;
+}
+.comic_main .green_bar .col-8 {
+  border-right: 2px solid #357739;
+}
+
 .topfooter_container {
   background-image: url("../img/footer-bg.jpg");
   background-size: cover;

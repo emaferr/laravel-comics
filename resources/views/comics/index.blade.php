@@ -4,7 +4,6 @@
 
 @section('content')
 
-<main>
     <div class="comics_container pt-5">
         <div class="container">
             <h2 class="int text-white">CURRENT SERIES</h2>
@@ -33,5 +32,5 @@
         <span class="pr-5 mr-4 pl-2">{{$item['name']}}</span>    
         @endforeach
     </div>
-</main>
+    
 @endsection
