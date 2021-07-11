@@ -9,6 +9,7 @@
         <div class="container">
             <div class="">
                 <img src="{{$comic['thumb']}}" class="" alt="...">
+                <h1>{{Route::currentRouteName()}}</h1>
             </div>              
     
         </div>

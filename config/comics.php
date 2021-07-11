@@ -259,7 +259,49 @@ return [
         ],
     ],
 
-    'navLink' => ['characters','comics', 'movies', 'tv', 'games', 'collectibles', 'videos', 'fans', 'news', 'shop'],
+    'navLink' => [
+        [
+            'plural'=> 'characters',
+            'single'=> 'character'
+        ],
+        [
+            'plural'=> 'comics',
+            'single'=> 'comic'
+        ],
+        [
+            'plural'=> 'movies',
+            'single'=> 'movie'
+        ],
+        [
+            'plural'=> 'tv',
+            'single'=> 'tv'
+        ],
+        [
+            'plural'=> 'games',
+            'single'=> 'game'
+        ],
+        [
+            'plural'=> 'collectibles',
+            'single'=> 'collectible'
+        ],
+        [
+            'plural'=> 'videos',
+            'single'=> 'video'
+        ],
+        [
+            'plural'=> 'fans',
+            'single'=> 'fan'
+        ],
+        [
+            'plural'=> 'news',
+            'single'=> 'new'
+        ],
+        [
+            'plural'=> 'shop',
+            'single'=> 'shop'
+        ]
+        
+        ],
 
     'footerIcons' => ['../img/footer-facebook.png','../img/footer-twitter.png','../img/footer-youtube.png','../img/footer-pinterest.png','../img/footer-periscope.png']
      

@@ -31,8 +31,8 @@
                     </a>
                     <div class="nav_link col-8">
                         <ul class="p-0 mb-0">
-                            @foreach (config('comics.navLink') as $index=>$link)
-                            <li class="text-uppercase font-weight-bold"><a href="{{'/'.$link}}" class=" @if ( Route::currentRouteName() === $link){{Route::currentRouteName() ? 'active' : ''}} @endif">{{$link}}</a><li>
+                            @foreach (config('comics.navLink') as $link)
+                            <li class="text-uppercase font-weight-bold"><a href="{{'/'.$link['plural']}}" class="{{Route::currentRouteName() === $link['plural'] || Route::currentRouteName() === $link['single'] ? 'active' : ''}}">{{$link['plural']}}</a><li>
                             @endforeach
                         </ul>
                     </div>
