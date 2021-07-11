@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title','Comics | DC')
+@section('title','Comic | DC'.''.$comic['series'])
 
 @section('content')
 

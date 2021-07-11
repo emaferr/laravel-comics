@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
@@ -32,19 +31,9 @@
                     </a>
                     <div class="nav_link col-8">
                         <ul class="p-0 mb-0">
-                            {{-- @foreach (config('comics.navLink') as $link)
-                            <li class="text-uppercase font-weight-bold"><a href="{{$link}}" class="{{Route::currentRouteName() === $link ? 'active' : ''}}">{{$link}}</a></li>
-                            @endforeach --}}
-                            <li class="text-uppercase font-weight-bold"><a href="{{route ('characters')}}" class="{{Route::currentRouteName() === 'characters' ? 'active' : ''}}">characters</a></li>
-                            <li class="text-uppercase font-weight-bold"><a href="{{route ('comics')}}" class="{{Route::currentRouteName() === 'comics' ? 'active' : ''}}">comics</a></li>
-                            <li class="text-uppercase font-weight-bold"><a href="">movies</a></li>
-                            <li class="text-uppercase font-weight-bold"><a href="">tv</a></li>
-                            <li class="text-uppercase font-weight-bold"><a href="">games</a></li>
-                            <li class="text-uppercase font-weight-bold"><a href="">collectibles</a></li>
-                            <li class="text-uppercase font-weight-bold"><a href="">videos</a></li>
-                            <li class="text-uppercase font-weight-bold"><a href="">fans</a></li>
-                            <li class="text-uppercase font-weight-bold"><a href="">news</a></li>
-                            <li class="text-uppercase font-weight-bold"><span><a href="">shop</a></span></li>
+                            @foreach (config('comics.navLink') as $index=>$link)
+                            <li class="text-uppercase font-weight-bold"><a href="{{'/'.$link}}" class=" @if ( Route::currentRouteName() === $link){{Route::currentRouteName() ? 'active' : ''}} @endif">{{$link}}</a><li>
+                            @endforeach
                         </ul>
                     </div>
                     <div class="search_bar col pr-0">
