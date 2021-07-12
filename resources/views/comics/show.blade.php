@@ -33,5 +33,11 @@
             </div>
         </div>
     </div>
+    <div class="talent">
+        <div class="row">
+            <div class="col-6"></div>
+            <div class="col-6"></div>
+        </div>
+    </div>
 </div>
 @endsection
